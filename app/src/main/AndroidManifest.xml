@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rebound">
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher32313312312_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher32313312312_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login.LoginActivity">
+
+
+        </activity>
+
+        <activity android:name=".Main.MainActivity" />
+        <activity android:name=".Main.MainComunity" />
+        <activity android:name=".Main.MainNews" />
+        <activity android:name=".Main.MainTeam" />
+        <activity android:name=".Main.MainGuest" />
+        <activity android:name=".Login.Clause" />
+        <activity android:name=".Login.sign_up1" />
+        <activity android:name=".Login.sign_up2" />
+
+        <activity android:name=".Search_Player_side" />
+        <activity android:name=".Search_Team_side" />
+
+        <activity android:name=".Myinfomation" />
+        <activity android:name=".post.Post_Guest" />
+        <activity android:name=".post.Post_Team" />
+        <activity
+            android:name=".post.Post_news"
+            android:windowSoftInputMode="adjustPan" />
+
+
+        <activity
+            android:name=".post.Post_comunity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".post.Post_shop" />
+        <activity android:name=".Team_info" />
+        <activity android:name=".Password_find" />
+        <activity android:name=".Id_find" />
+        <activity android:name=".post.Post_View" />
+        <activity
+            android:name=".post.Post_view2"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".user_profile" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.myapp.fileprovider"
+
+
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="cokp2q5b2w" />
+
+        <activity android:name=".post.Post_View_Team" />
+        <activity android:name=".post.Post_view2_comu" />
+        <activity android:name=".Team_add" />
+    </application>
+
+
+</manifest>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">리바운드</string>
+    <string name="login_id">아이디</string>
+    <string name="login_password">패스워드</string>
+    <string name="sing_in">로그인</string>
+    <string name="sing_up">회원가입</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="myAppName">"ToolBar 구현예제"</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="default_notification_channel_id" />
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="io_title01">Keynote</string>
+    <string name="io_title02">Android: Open to the future</string>
+    <string name="io_title03">Wear OS by Google</string>
+    <string name="season">시즌</string>
+    <string name="season_prompt">성별</string>
+
+
+    <string name="find_id">아이디 찾기</string>
+    <string name="fine_password">비밀번호 찾기</string>
+    <string name="rationale_title">Permission required</string>
+    <string name="rationale_message">we need permission for write <b>storage</b> and find your <b>location</b></string>
+</resources>

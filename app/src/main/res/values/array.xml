@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ground">
+        <item>지역</item>
+    </string-array>
+    <string-array name="spinner_entries">
+        <item >Android Dev Summit</item>
+        <item >Android I/O</item>
+    </string-array>
+    <string-array name="sex">
+        <item>성별</item>
+        <item>남</item>
+        <item>여</item>
+    </string-array>
+    <string-array name="season_array">
+        <item>남</item>
+        <item>여</item>
+    </string-array>
+    <string name="malmal">말머리</string>
+    <string-array name="malmuri">
+        <item>말머리</item>
+        <item>유머</item>
+        <item>질문</item>
+        <item>잡담</item>
+        <item>팁/노하우</item>
+    </string-array>
+    <string-array name="phone">
+        <item>010</item>
+        <item>016</item>
+        <item>011</item>
+        <item>017</item>
+    </string-array>
+    <string-array name="news">
+        <item>말머리</item>
+        <item>프로/남자</item>
+        <item>프로/여자</item>
+        <item>아마/남자</item>
+        <item>아마/여자</item>
+        <item>국대/남자</item>
+        <item>국대/여자</item>
+        <item>NBA</item>
+        <item>WNBA</item>
+    </string-array>
+    <string-array name="elite">
+        <item>선출여부</item>
+        <item>아니오</item>
+        <item>예</item>
+
+    </string-array>
+    <string-array name="area">
+        <item>지역</item>
+        <item>서울</item>
+        <item>경기</item>
+        <item>인천</item>
+        <item>강원</item>
+        <item>충북</item>
+        <item>충남</item>
+        <item>대전</item>
+        <item>광주</item>
+        <item>전북</item>
+        <item>전남</item>
+        <item>경북</item>
+        <item>대구</item>
+        <item>경남</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>제주</item>
+
+
+    </string-array>
+    <string-array name="team">
+        <item>말머리</item>
+        <item>팀원 구함</item>
+        <item>팀 구함</item>
+
+
+    </string-array>
+
+    <string-array name="guest">
+        <item>말머리</item>
+        <item>급   구</item>
+        <item>구해요</item>
+        <item>갑니다</item>
+
+
+    </string-array>
+    <string-array name="shop">
+        <item>말머리</item>
+        <item>공동구매</item>
+        <item>삽니다. </item>
+        <item>팝니다. </item>
+
+
+    </string-array>
+    <string-array name="position">
+        <item>포지션</item>
+        <item>포인트 가드</item>
+        <item>슈팅 가드</item>
+        <item>스몰 포워드</item>
+        <item>파워 포워드</item>
+        <item>센터</item>
+        </string-array>
+</resources>

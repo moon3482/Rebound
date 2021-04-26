@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab1"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="홈"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/tab2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="게스트 구인"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/tab3"
+        android:enabled="true"
+   android:icon="@drawable/teamlogo"
+        android:title="팀원 구원"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tab4"
+        android:enabled="true"
+        android:icon="@drawable/ic_news"
+        android:title="농구 소식"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tab5"
+        android:enabled="true"
+        android:icon="@drawable/ic_comunication"
+        android:title="커뮤니티"
+        app:showAsAction="always" />
+
+<!--    <item-->
+<!--        android:id="@+id/tab5"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_shoppingcart"-->
+<!--        android:title="장터"-->
+<!--        app:showAsAction="always" />-->
+
+
+</menu>
+

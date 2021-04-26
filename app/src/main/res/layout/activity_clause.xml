@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/clause_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colortheme"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitle="이용약관"
+        app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:subtitleTextColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/clause_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="이용약관"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/clause_scrollView"
+        app:layout_constraintTop_toTopOf="@+id/clause_toolbar" />
+
+    <ScrollView
+        android:id="@+id/clause_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/strorke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clause_toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:inputType="textMultiLine"
+                android:text="---이용약관 1조---\n" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/clause_check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="위 내용에 동의합니다."
+        app:layout_constraintStart_toStartOf="@+id/clause_scrollView2"
+        app:layout_constraintTop_toBottomOf="@+id/clause_scrollView2" />
+
+    <TextView
+        android:id="@+id/clause_personel_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="개인정보 수집동의 약관"
+        android:textColor="@color/colorblack"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/clause_scrollView"
+        app:layout_constraintTop_toBottomOf="@+id/clause_check1" />
+
+    <ScrollView
+        android:id="@+id/clause_scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/strorke"
+        app:layout_constraintStart_toStartOf="@+id/clause_scrollView"
+        app:layout_constraintTop_toBottomOf="@+id/clause_personel_info_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:inputType="textMultiLine"
+                android:text="---개인정보 수집 동의---\n" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/clause_check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위 내용에 동의합니다."
+        app:layout_constraintStart_toStartOf="@+id/clause_scrollView"
+        app:layout_constraintTop_toBottomOf="@+id/clause_scrollView" />
+
+    <Button
+        android:id="@+id/clause_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="12dp"
+        android:text="다음"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clause_check2" />
+
+</LinearLayout>

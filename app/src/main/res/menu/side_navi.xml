@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/myinfo_menu"
+            android:title="내 정보"
+            />
+<!--        <item-->
+<!--            android:id="@+id/mypost_side"-->
+<!--            android:title="내가 작성한 게시물/신청"-->
+<!--            />-->
+        <item
+            android:id="@+id/search_team_side"
+            android:title="팀 검색"
+            />
+
+
+
+
+        <item
+            android:id="@+id/search_player_side"
+
+            android:title="유저 목록"
+            />
+<!--        <item-->
+<!--            android:id="@+id/match_side"-->
+
+<!--            android:title="경기 일정"-->
+<!--            />-->
+<!--        <item-->
+<!--            android:id="@+id/shop_side"-->
+
+<!--            android:title="장터"-->
+<!--            />-->
+        <item
+            android:id="@+id/logout_side"
+
+            android:title="로그아웃"
+            />
+
+</menu>
