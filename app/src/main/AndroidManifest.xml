@@ -86,7 +86,7 @@
         </provider>
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
-            android:value="cokp2q5b2w" />
+            android:value="@string/NaverMapAPI_ID" />
 
         <activity android:name=".post.Post_View_Team" />
         <activity android:name=".post.Post_view2_comu" />

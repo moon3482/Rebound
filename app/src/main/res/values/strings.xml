@@ -40,4 +40,8 @@
     <string name="fine_password">비밀번호 찾기</string>
     <string name="rationale_title">Permission required</string>
     <string name="rationale_message">we need permission for write <b>storage</b> and find your <b>location</b></string>
+    <string name="NaverSearchAPI_ID">wvvE631D07bzhGCtgA9Q</string>
+    <string name="NaverSearchAPI_key">CHsjR4SSpB</string>
+    <string name="NaverMapAPI_ID">cokp2q5b2w</string>
+    <string name="NaverMapAPI_key">Clp96IlbcsSyxusLXvpMtuLfHPqbegKxQRop2fCc</string>
 </resources>

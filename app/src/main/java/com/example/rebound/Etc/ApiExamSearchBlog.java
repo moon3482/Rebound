@@ -15,8 +15,8 @@
 //public class ApiExamSearchBlog {
 //
 //    public static void main(){
-//        String clientId = "cokp2q5b2w"; //애플리케이션 클라이언트 아이디값"
-//        String clientSecret = "Clp96IlbcsSyxusLXvpMtuLfHPqbegKxQRop2fCc"; //애플리케이션 클라이언트 시크릿값"
+//        String clientId = "@string/NaverMapAPI_ID"; //애플리케이션 클라이언트 아이디값"
+//        String clientSecret = "@string/NaverMapAPI_key"; //애플리케이션 클라이언트 시크릿값"
 //
 //        String text = null;
 //        try {
