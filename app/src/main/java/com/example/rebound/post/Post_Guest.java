@@ -345,8 +345,8 @@ public class Post_Guest extends AppCompatActivity implements OnMapReadyCallback 
     @Override
     public void onMapReady(@NonNull NaverMap naverMap) {
         Marker marker = new Marker();
-//        String clientId = "cokp2q5b2w";//애플리케이션 클라이언트 아이디값";
-//        String clientSecret = "Clp96IlbcsSyxusLXvpMtuLfHPqbegKxQRop2fCc";//애플리케이션 클라이언트 시크릿값";
+//        String clientId = "APIID";//애플리케이션 클라이언트 아이디값";
+//        String clientSecret = "APISecretkey";//애플리케이션 클라이언트 시크릿값";
 //        try {
 //
 //            String query = URLEncoder.encode("분당구 불정로 6", "UTF-8");
@@ -588,8 +588,8 @@ public class Post_Guest extends AppCompatActivity implements OnMapReadyCallback 
 
     public void main2(String b) {
 
-        String clientId = "wvvE631D07bzhGCtgA9Q"; //애플리케이션 클라이언트 아이디값"
-        String clientSecret = "CHsjR4SSpB"; //애플리케이션 클라이언트 시크릿값"
+        String clientId = "API key"; //애플리케이션 클라이언트 아이디값"
+        String clientSecret = "API sckey"; //애플리케이션 클라이언트 시크릿값"
 
         String text = null;
         try {
